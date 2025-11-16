@@ -10,7 +10,7 @@ En el repositorio puedes encontrar un proyecto gradle con las dependencias neces
 
 Para abordar dicho spring te muestro el diagrama de clases (en el que cuando se expresa cardinalidad * queremos expresar que se hará uso de listas) para el mismo y poco a poco te iré explicando los diferentes pasos a realizar:
 
-![Diagrama de clases de la tarea](src\main\resources\uml\tallerMecanico.png)
+![Diagrama de clases de la tarea](src/main/resources/uml/tallerMecanico.png)
 
 
 #### Primeros Pasos
