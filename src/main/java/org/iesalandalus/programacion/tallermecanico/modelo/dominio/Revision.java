@@ -1,7 +1,9 @@
 package org.iesalandalus.programacion.tallermecanico.modelo.dominio;
 
-import java.time.LocalDate;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 
+import java.time.LocalDate;
+@JsonTypeName("Revision")
 public class Revision extends Trabajo {
 
     private static final float FACTOR_HORA = 35F;

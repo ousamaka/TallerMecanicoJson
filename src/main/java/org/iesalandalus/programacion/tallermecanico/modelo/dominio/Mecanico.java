@@ -1,9 +1,10 @@
 package org.iesalandalus.programacion.tallermecanico.modelo.dominio;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.iesalandalus.programacion.tallermecanico.modelo.TallerMecanicoExcepcion;
 
 import java.time.LocalDate;
-
+@JsonTypeName("Mecanico")
 public class Mecanico extends Trabajo {
 
     private static final float FACTOR_HORA = 30F;

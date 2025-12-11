@@ -31,7 +31,7 @@ class ModeloTest {
     @Mock
     private static ITrabajos trabajos;
     @InjectMocks
-    private Modelo modelo = FabricaModelo.CASCADA.crear(FabricaFuenteDatos.FICHEROS);
+    private Modelo modelo = FabricaModelo.CASCADA.crear(FabricaFuenteDatos.FICHEROS_JSON);
 
     private static Cliente cliente;
     private static Vehiculo vehiculo;
